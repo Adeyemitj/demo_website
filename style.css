@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+SC&display=swap');
+body{
+    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    font-weight: 900px;  
+    background-image: url('../images/sun-pattern.png') 
+    /* background: rgba(55,103,60,1);
+    background: -moz-linear-gradient(left, rgba(55,103,60,1) 0%, rgba(2,51,6,0.95) 88%, rgba(1,50,5,0.95) 89%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(55,103,60,1)), color-stop(88%, rgba(2,51,6,0.95)), color-stop(89%, rgba(1,50,5,0.95)));
+    background: -webkit-linear-gradient(left, rgba(55,103,60,1) 0%, rgba(2,51,6,0.95) 88%, rgba(1,50,5,0.95) 89%);
+    background: -o-linear-gradient(left, rgba(55,103,60,1) 0%, rgba(2,51,6,0.95) 88%, rgba(1,50,5,0.95) 89%);
+    background: -ms-linear-gradient(left, rgba(55,103,60,1) 0%, rgba(2,51,6,0.95) 88%, rgba(1,50,5,0.95) 89%);
+    background: linear-gradient(to right, rgba(55,103,60,1) 0%, rgba(2,51,6,0.95) 88%, rgba(1,50,5,0.95) 89%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#37673c', endColorstr='#013205', GradientType=1 ); */
+    
+}
+
+/* our content area */
+.our-content{
+    max-width: 600px;
+    padding-top: 20px;
+    margin: auto;
+    padding: 10px 25px;
+    background-image: url('../images/so-white.png')
+    
+}
+
+.image{
+    height: 300px;
+    width: 500px;
+    border-radius: 33px 33px 116px 33px;
+    -moz-border-radius: 33px 33px 116px 33px;
+    -webkit-border-radius: 33px 33px 116px 33px;
+    border: 0px solid #000000;
+
+}
+.image:hover{
+    -webkit-box-shadow: -6px -28px 59px 25px rgba(122,141,161,0.64);
+    -moz-box-shadow: -6px -28px 59px 25px rgba(122,141,161,0.64);
+    box-shadow: -6px -28px 59px 25px rgba(122,141,161,0.64);
+}
+.me{
+    max-width: 260px;
+    font-family: 'Noto Sans SC', sans-serif;
+    float: right;
+    padding: 5px 10px;
+    position: absolute;
+    margin-left: -260px;
+    background-color: rgb(225, 229, 238);
+
+}
+.me:hover{
+    background-color: rgb(104, 140, 141);
+    color: rgb(62, 66, 66)
+}
+
+/* end of our content area */
+
+/* navigation bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(126, 121, 121, 0.842);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(76, 129, 103);
+  }
+
+  .active {
+    background-color: rgb(50, 82, 50);
+  }
+  /* end of navigation bar */
+
+  /* start of footer */
+  .footer{
+      background-color: rgba(173, 169, 169, 0.842);
+      height: 3em;
+      padding: 5px 10px;
+  }
+
+  
